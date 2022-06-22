@@ -18,6 +18,9 @@ module.exports = {
     } else {
       config.output.webassemblyModuleFilename = "static/wasm/[modulehash].wasm";
     }
+
+    config.optimization.moduleIds = "named";
+
     return config;
   },
 };
