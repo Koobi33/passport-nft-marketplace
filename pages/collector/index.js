@@ -44,7 +44,7 @@ export default function CollectorListPage() {
                   <Card
                     className={styles.card}
                     hoverable
-                    cover={<img alt="example" src={el.imgBase64} />}
+                    cover={<img alt={el.title} src={el.imgBase64} />}
                   >
                     <Meta title={el.title} description={el.description} />
                   </Card>

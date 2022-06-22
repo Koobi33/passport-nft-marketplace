@@ -79,7 +79,7 @@ export default function CollectorPage() {
   }
   useEffect(() => {
     getData();
-  }, [requestedTitle]);
+  }, [requestedTitle, getData]);
 
   return (
     <div className={styles.wrapper}>
@@ -152,6 +152,7 @@ const StampItem = ({ el, verified }) => {
       </div>
       {!verified && (
         <a
+          rel="noreferrer"
           target="_blank"
           className={styles.get_stamp_link}
           href={"https://passport.gitcoin.co/"}

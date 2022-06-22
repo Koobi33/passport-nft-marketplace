@@ -22,5 +22,10 @@
     "react-dom": "^18.2.0",
     "sass": "^1.52.3",
     "wagmi": "^0.4.12"
+  },
+  "devDependencies": {
+    "eslint": "8.18.0",
+    "eslint-config-next": "12.1.6",
+    "eslint-config-prettier": "^8.5.0"
   }
 }

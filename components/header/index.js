@@ -1,6 +1,7 @@
 import React from "react";
 import { useRouter } from "next/router";
 import { ConnectButton } from "@rainbow-me/rainbowkit";
+import Link from "next/link";
 
 import styles from "./header.module.scss";
 
