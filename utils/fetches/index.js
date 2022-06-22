@@ -19,13 +19,14 @@ export function fetchCollections(requestedTitle) {
   });
 }
 
-export function callParticipation({ itemTitle, address }) {
+export function callParticipation({ itemTitle, address, passport }) {
   return fetch(API_ADDRESS, {
     method: "POST",
     body: JSON.stringify({
       type: PARTICIPATE,
       itemTitle,
       address,
+      passport,
     }),
   });
 }

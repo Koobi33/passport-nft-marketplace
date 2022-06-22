@@ -66,6 +66,7 @@ export default function CollectorPage() {
       const res = await callParticipation({
         itemTitle: data.title,
         address: userData.address,
+        passport,
       });
       if (res.status === 200) {
         setCelebrate(true);

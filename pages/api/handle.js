@@ -4,7 +4,6 @@ import {
   GET_COLLECTIONS_LIST,
   PARTICIPATE,
 } from "../../utils/constants/index";
-import { PassportVerifier } from "../../utils/passport-sdk-verifier/verifier";
 
 const entities = [];
 
@@ -33,30 +32,22 @@ export default function handler(req, res) {
     if (body.type === PARTICIPATE) {
       const entityArr = entities.filter((el) => el.title === body.itemTitle);
       const address = body.address;
+      const passport = body.passport;
       let entity;
       if (entityArr[0]) {
         entity = entityArr[0];
-        const verifier = new PassportVerifier();
         if (address) {
-          verifier
-            .verifyPassport(address)
-            .then((passport) => {
-              const userStamps = passport.stamps;
-              if (
-                entity.reqStamps.every((el) =>
-                  userStamps.some((elem) => elem.provider === el.title)
-                )
-              ) {
-                return res.status(200).send();
-              }
-            })
-            .catch(() => {
-              return res.status(403).send();
-            });
+          const userStamps = passport.stamps;
+          if (
+            entity.reqStamps.every((el) =>
+              userStamps.some((elem) => elem.provider === el.title)
+            )
+          ) {
+            return res.status(200).send();
+          }
         }
-      } else {
-        return res.status(403).send();
       }
+      return res.status(403).send();
     }
   }
 }
