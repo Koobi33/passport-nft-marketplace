@@ -1,0 +1,23 @@
+.navLink {
+  padding: 10px;
+  background: white;
+  margin-right: 10px;
+  text-transform: uppercase;
+  background: none;
+  color: white;
+  &:hover {
+    color: #333333;
+  }
+}
+
+.offSide {
+  margin-left: auto;
+  & > div > button {
+    background-color: white !important;
+    color: #0e76fd !important;
+  }
+}
+
+.button {
+  background-color: #333333;
+}
