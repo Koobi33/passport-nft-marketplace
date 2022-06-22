@@ -42,6 +42,7 @@ export default function CreatorPage() {
   function validate() {
     if (!data) {
       message.error("Wallet should be connected!");
+      return false;
     }
     if (!imageUrl || !title || !description) {
       message.error("All inputs are required!");
