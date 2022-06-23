@@ -53,7 +53,7 @@ export default function UploadBtn({ imageUrl, setImageUrl }) {
           name="avatar"
           listType="picture-card"
           className="avatar-uploader"
-          action="https://www.mocky.io/v2/5cc8019d300000980a055e76"
+          action="/api/creator"
           showUploadList={false}
           beforeUpload={beforeUpload}
           onChange={handleChange}
