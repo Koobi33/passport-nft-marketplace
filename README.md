@@ -4,7 +4,9 @@ team: notBot
 link on project: https://passport-nft-marketplace.vercel.app/
 
 description:
-We have made NFT market place with Gitcoin Passport. Our solution provide for artist way to protect their collections from bots. 
+We have made NFT marketplace with Gitcoin Passport. 
+Our solution provide for artist way to protect their collections from bots.
+See our video-presentation for more details.
 
 how to start project:
 
