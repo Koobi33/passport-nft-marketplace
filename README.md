@@ -13,9 +13,7 @@ Solved problems:
 2. Gas wars - when really popular collection has dropped, people want to overtake competitors and because of that decide to pay more for gas to be first who can validate transaction in network.
 3. Preventing Sybil attack - similarly with first problem, but in that case NFT not just artwork but right for voting. 
 
-When project was started:
-
-Around between 18 and 20 june. 
+When project was started: Around between 18 and 20 june. 
 
 Problems during the project:
 
