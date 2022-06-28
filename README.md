@@ -5,6 +5,7 @@ Team name: notBot
 Link on website of project: https://passport-nft-marketplace.vercel.app/
 
 Project description:
+
 We have made NFT marketplace with Gitcoin Passport to provide defense of artists from bots.
 
 Solved problems:
@@ -13,6 +14,7 @@ Solved problems:
 3. Preventing Sybil attack - similarly with first problem, but in that case NFT not just artwork but right for voting. 
 
 When project was started:
+
 Around between 18 and 20 june. 
 
 Problems during the project:
@@ -25,6 +27,7 @@ Our plans:
 Don't forget to see our video-presentation for more details and project architecture. 
 
 Video presentation:
+
 https://youtu.be/Yr48lnKGMQM
 
 How to run the project:
