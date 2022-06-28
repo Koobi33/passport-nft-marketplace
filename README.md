@@ -22,12 +22,13 @@ Our plans:
 3. Development on-chain smartcontract for collecting validated (with help of Gitcoin Passport) ETH addresses. In our marketplace user have ability to subscribe for some collection and when drop will be provide users will receive notification about that OR maybe will recive NFT automatically. We still thinking about model.
 
 Don't forget to see our video-presentation for more details and project architecture. 
-Video presentation: 
+Video presentation: https://youtu.be/Yr48lnKGMQM
 
 How to run the project:
 
 
 Creators:
+
 https://www.linkedin.com/in/elizaveta-dmitrieva-4a1bb9242/
 
 https://www.linkedin.com/in/suchkov-dv/
