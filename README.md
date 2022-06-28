@@ -1,6 +1,4 @@
-Project name: 
-
-Protected NFT marketplace
+Project name: Protected NFT marketplace
 
 Team name: notBot
 
